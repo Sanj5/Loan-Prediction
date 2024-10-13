@@ -33,4 +33,21 @@ The project uses the following files:
 
 4. Output
   - After running the script, you will find the predictions in a file named submission_final.csv. This file will be formatted with the columns id and loan_status.
+
+## **GRAPHS EXPLAINING DATA SET**
+![Graph1](assets/GRAPH1.png)
+![Graph2](assets/GRAPH2.png)
+
+
+## **OUTPUT**
+![Output](assets/output.png)
+
+The loan_status values represent the model's confidence in approving each loan application:
+Scores close to 1.0 suggest a high likelihood of approval.
+Scores close to 0.0 indicate a low likelihood of approval.
+
+Example Interpretation
+For example, the application with id 58645 has a loan status score of 0.9, suggesting a very high probability of approval.
+Conversely, the application with id 58667 has a score of 0.02, indicating that the model predicts a low likelihood of loan approval.
+
   
